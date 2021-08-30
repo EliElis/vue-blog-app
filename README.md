@@ -1,4 +1,19 @@
 # blog-app
+### Details
+Use headless strapi cms for posts.
+https://vue-strapi-admin-app.herokuapp.com/
+
+Here is template:
+https://github.com/EliElis/strapi-blog-api
+
+You can set the local strapi with the command.
+```
+npx create-strapi-app vue-admin-app --template https://github.com/EliElis/strapi-blog-api
+```
+Path to file with api configuration:
+```
+src/api/url.js
+```
 
 ## Project setup
 ```
@@ -20,5 +35,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
